@@ -1,6 +1,5 @@
 <template>
     <div class="topnav">
-        <div class="menu"></div>
         <div class="logo">LOGO</div>
         <ul class="menu">
             <li>菜单1</li>
@@ -15,13 +14,13 @@ export default {
 }
 </script>
 
-<style lang="scss" scope>
-.topnar{border: 1px solid red;}
-  
+<style lang="scss" scope>  
 .topnav {
   background: pink;
   display: flex;
   padding: 16px;
+  position: relative;
+  z-index: 10;
   > .logo {
     max-width: 6em;
     margin-right: auto;
