@@ -10,7 +10,7 @@ export default {
   name: 'App',
   setup() {
     const asideVisible = ref(false)
-    provide('xxx', asideVisible)  //set
+    provide('asideVisible', asideVisible)  //set
   }
 }
 </script>
