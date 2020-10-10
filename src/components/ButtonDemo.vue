@@ -1,8 +1,18 @@
 <template>
     <div>
         Button 的示例
-        <h1>测试</h1>
+    </div>
+    <h1>s示例1</h1>
+    <div>
+        <Button>你好</Button>
     </div>
 </template>
+
+<script lang="ts">
+import Button from "../lib/Button.vue"
+export default {
+    components: {Button}
+}
+</script>
 
 
