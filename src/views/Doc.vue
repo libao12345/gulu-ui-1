@@ -51,7 +51,7 @@ export default {
 </script>
 
 <style lang="scss" scope>
-
+$aside-index: 10;
 .layout {
   display: flex;
   flex-direction: column;
@@ -88,6 +88,7 @@ export default {
   left: 0;
   padding-top: 70px;
   height: 100%;
+  z-index: $aside-index;
   > h2 {
     margin-bottom: 4px;
     padding: 0 16px;
