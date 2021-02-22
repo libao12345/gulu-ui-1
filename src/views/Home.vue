@@ -80,7 +80,7 @@ $color: #007974;
     display: flex;
     flex-wrap: wrap;
     >li {
-      width: 400px;
+      width: 33.333333%;
       margin: 16px 0;
       display: grid;
       justify-content: start;
