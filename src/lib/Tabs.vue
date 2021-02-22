@@ -19,9 +19,11 @@
   </div>
 </template>
 
-<script lang="ts">
+<script lang="ts" setup="props, context">
 import Tab from "./Tab.vue";
-import { computed, ref, watchEffect,onMounted } from "vue";
+import { computed, ref, watchEffect,onMounted,SetupContext,Component } from "vue";
+declare const props: {selected: string}
+declare const context: SetupContext
 export default {
   props: {
     selected: {

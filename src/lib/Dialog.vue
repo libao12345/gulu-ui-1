@@ -21,7 +21,8 @@
     </template>  
 </template>
 
-<script lang="ts">
+<script lang="ts" setup="props, context">
+import { SetupContext } from 'vue';
 import Button from "./Button.vue";
 export default {
     props: {
