@@ -1,12 +1,11 @@
 <template>
-    <button class="gulu-switch" @click="toggle" :class="{'gulu-checked': value}"><span></span>
+    <button class="gulu-switch" @click="toggle" :class="{'gulu-checked': value}">
+        <span></span>
     </button>
 </template>
 
-<script lang="ts" setup="props,context">
-import { ref, SetupContext  } from "vue";
-declare const props: {value: boolean}
-declare const context: SetupContext
+<script lang="ts">
+import { ref } from "vue";
 export default {
     props: {
         value: Boolean,
